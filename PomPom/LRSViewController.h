@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LRSViewController : UIViewController
+@interface LRSViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
 
 @end
